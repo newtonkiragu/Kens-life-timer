@@ -2,8 +2,8 @@ countIt();
 
 function countIt() {
   year = 2066;
-  month = 1;
-  day = 1;
+  month = 01;
+  day = 01;
   hours = 00;
   minuites = 00;
   seconds = 00;
@@ -17,7 +17,7 @@ function countIt() {
     var hoursLeft = parseInt((endDate - thisDate) / 3600000);
     var minutsLeft = parseInt((endDate - thisDate) / 60000);
     var secondsLeft = parseInt((endDate - thisDate) / 1000);
-    var yearsLeft = parseInt(year - thisDate.getFullYear())
+    var yearsLeft = parseInt(year - thisDate.getFullYear());
 
     seconds = minutsLeft * 60;
     seconds = secondsLeft - seconds;
