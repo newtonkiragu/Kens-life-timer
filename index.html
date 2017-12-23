@@ -499,12 +499,14 @@
   <g id="Layer_2">
     <g>
       <!-- IDEA: start of timer code -->
-      <div class="container">
+
+      <div class="container" style="padding-top:100px;">
         <section id="timer">
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-8 countdown-wrapper text-center mb20">
               <div class="card">
                 <div class="card-header">
+                  <p id="today" style="text-align: center;"> </p>
                   <p>My personal timer</p>
                 </div>
                 <div class="card-block">
@@ -517,6 +519,7 @@
                     </div>
                   </div>
                 </div>
+
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-1">
@@ -530,7 +533,7 @@
                 <div class="card-block">
                   <div id="countdown">
                     <div class="well">
-                      <span id="countUp" class="timer bg-success"></span>
+                      <span id="countUp" class="timer bg-success" title="Years"></span>
                     </div>
                   </div>
                 </div>
