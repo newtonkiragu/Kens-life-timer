@@ -38,6 +38,9 @@ function countIt() {
 }
 
 function startCount(days, hours, minutes, seconds) {
-  document.getElementById('countDown').innerHTML ="YEARS: "+years+ ", DAYS: " + days + ", HOURS: " + hours + ", MINUTES: " + minutes + ", SECONDS: " + seconds;
+  document.getElementById('year').innerHTML = years;
+  document.getElementById('hour').innerHTML = hours;
+  document.getElementById('min').innerHTML = minutes;
+  document.getElementById('sec').innerHTML = seconds;
   countIt();
 }
