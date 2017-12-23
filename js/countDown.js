@@ -42,5 +42,6 @@ function startCount(days, hours, minutes, seconds) {
   document.getElementById('hour').innerHTML = hours;
   document.getElementById('min').innerHTML = minutes;
   document.getElementById('sec').innerHTML = seconds;
+  document.getElementById('today').innerHTML = thisDate;
   countIt();
 }
