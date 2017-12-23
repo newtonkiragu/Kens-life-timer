@@ -39,6 +39,6 @@ function countItt() {
 }
 
 function startCountt(dayss, hourss, minutess, secondss) {
-  document.getElementById('countUp').innerHTML ="YEARS: "+yearss;
+  document.getElementById('countUp').innerHTML =yearss;
   countItt();
 }
