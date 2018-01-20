@@ -26,7 +26,7 @@ function countIt() {
     minutes = minutsLeft - minutes;
 
     hours = daysLeft * 24;
-    hours = (hoursLeft - hours) < 0 ? 0 : hoursLeft - hours;
+    // hours = (hoursLeft - hours) < 0 ? 0 : hoursLeft - hours;
 
     days = daysLeft;
 
