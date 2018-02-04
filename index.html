@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="this is my small personal timer. check it out">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="This is my small personal timer. check it out">
   <title>My Timer</title>
   <link rel="icon" href="https://cdn2.iconfinder.com/data/icons/productivity-at-work/256/Time_Management-512.png">
   <link href="http://fontawesome.io/assets/font-awesome/css/font-awesome.css" rel="stylesheet" media="screen">
@@ -14,53 +14,35 @@
   <script src="js/countDown.js" charset="utf-8"></script>
 </head>
 
-<body style="overflow:auto;">
-
-  <!-- IDEA: start of timer code -->
-
-  <div  style="padding-top:100px;">
+<body>
+  <div>
     <section id="timer">
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-8 countdown-wrapper text-center mb20">
-          <div class="card">
-            <div class="card-header">
-              <p id="today" style="text-align: center;"> </p>
-              <p>My personal timer</p>
+        <div>
+          <div>
+            <div>
+              <p id="today"> </p>
             </div>
-            <div class="card-block">
+            <div>
               <div id="countdown">
-                <div class="well">
-                  <span id="year" class="timer bg-primary" title="Years"></span>
-                  <span id="hour" class="timer bg-success" title="Hours"></span>
-                  <span id="min" class="timer bg-danger" title="Minutes"></span>
-                  <span id="sec" class="timer bg-primary" title="Seconds"></span>
+                <div>
+                  <span id="year" class="timer" title="Years"></span>
+                  <p>Years</p>
+                  <span id="hour" class="timer" title="Hours"></span>
+                  <p>Hours</p>
+                  <span id="min" class="timer" title="Minutes"></span>
+                  <p>Minutes</p>
+                  <span id="sec" class="timer" title="Seconds"></span>
+                  <p>Seconds</p>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-1">
-<h5>80</h5>
-        </div>
-        <div class="col-xs-12 col-sm-12 col-md-3 countdown-wrapper text-center mb20">
-          <div class="card">
-            <div class="card-header">
-              <!-- Upcomming Event countdown timer -->
-            </div>
-            <div class="card-block">
-              <div id="countdown">
-                <div class="well">
-                  <span id="countUp" class="timer bg-success" title="Years"></span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   </div>
-  <!-- IDEA: end of timer code -->
 </body>
 
 </html>
