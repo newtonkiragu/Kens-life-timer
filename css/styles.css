@@ -28,8 +28,7 @@ body {
     position: absolute;
     top: 8%;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: 10%;
 }
 
 #countdown p {
@@ -38,8 +37,52 @@ body {
     text-transform: uppercase;
 }
 
+
+.center {
+    text-align: center;
+}
+
+#eighty {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    top: 45%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#countup {
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    top: 45%;
+    bottom: 0;
+    left: 45%;
+    right: 0; 
+}
+
 @media screen and (max-width: 480px) {
     #countdown {
         top: 13%;
+        left: 25%; 
+    }
+    
+    #eighty {
+        top: 90%;
+        bottom: 0;
+        left: 0;
+        right: 0; 
+    }
+
+    #countup {
+        top: 90%;
+        bottom: 0;
+        left: 30%;
+        right: 0; 
     }
 }
