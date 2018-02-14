@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    overflow: auto;
+    overflow: hidden;
     font-family: 'Oswald', sans-serif;
 }
 
@@ -54,35 +54,45 @@ body {
     right: 0;
 }
 
+#countup p {
+  font-size: 18px;
+  font-family: 'Overpass Mono', monospace;
+  text-transform: uppercase;
+}
+
 #countup {
     text-align: center;
     margin: auto;
     position: absolute;
-    font-family: 'Roboto', sans-serif;
-    font-size: 21px;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 65px;
+    font-weight: 700;
     top: 45%;
     bottom: 0;
     left: 45%;
-    right: 0; 
+    right: 0;
 }
 
 @media screen and (max-width: 480px) {
+  body{
+    overflow: auto;
+  }
     #countdown {
         top: 13%;
-        left: 25%; 
+        left: 25%;
     }
-    
+
     #eighty {
         top: 90%;
         bottom: 0;
         left: 0;
-        right: 0; 
+        right: 0;
     }
 
     #countup {
         top: 90%;
         bottom: 0;
         left: 30%;
-        right: 0; 
+        right: 0;
     }
 }
