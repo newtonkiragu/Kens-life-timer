@@ -83,6 +83,7 @@ body {
     }
 
     #eighty {
+      display: hidden;
         top: 90%;
         bottom: 0;
         left: 0;
@@ -90,6 +91,7 @@ body {
     }
 
     #countup {
+      display: hidden;
         top: 90%;
         bottom: 0;
         left: 30%;
